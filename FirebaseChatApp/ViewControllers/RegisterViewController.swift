@@ -183,7 +183,7 @@ class RegisterViewController: UIViewController {
         
         // Set the corner radius here
         imageView.layer.cornerRadius = imageView.frame.width / 2
-//        imageView.layer.masksToBounds = true
+        //        imageView.layer.masksToBounds = true
     }
     
     private func addGestureToImageView() {
@@ -216,22 +216,34 @@ class RegisterViewController: UIViewController {
             alertUserLoginError()
             return
         }
+        DatabaseManager.shared.userExists(with: email, completion: {[weak self] exists in
+            guard let strongSelf = self else {return}
+            guard !exists else {
+                // user already exists
+                strongSelf.alertUserLoginError(message: "User email already exists")
+                
+                return
+            }
+            
+            FirebaseAuth.Auth.auth().createUser(
+                withEmail: email, password: password,
+                completion: { authResult , error in
+                   
+                    guard authResult != nil,  error == nil else {
+                        print("Error creating user")
+                        return
+                    }
+                    DatabaseManager.shared.insertUser(with: ChatAppUser(firstName: firstName, lastName: lastName, emailAddress: email))
+                    strongSelf.navigationController?.dismiss(animated: true)
+                })
+        })
         
-        FirebaseAuth.Auth.auth().createUser(
-            withEmail: email, password: password,
-            completion: { authResult , error in
-                guard let result = authResult,  error == nil else {
-                    print("Error creating user")
-                    return
-                }
-                let user = result.user
-                print("created user")
-            })
+        
         
     }
     
-    @objc private func alertUserLoginError(){
-        let alert = UIAlertController(title: "Woops", message: "Please enter all information to create a new account", preferredStyle: .alert)
+    @objc private func alertUserLoginError(message: String = "Please enter all information to create a new account."){
+        let alert = UIAlertController(title: "Woops", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
         present(alert, animated: true)
     }

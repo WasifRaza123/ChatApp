@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5540C956-4A23-42CD-B626-9744ADDD25CA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
-            landmarkName = "loginButtonTapped()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "5540C956-4A23-42CD-B626-9744ADDD25CA - 6512fe0e4387a79f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.LoginViewController.loginButtonTapped() -&gt; ()"
-                  moduleName = "FirebaseChatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/LoginViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "125"
-                  endingLineNumber = "125"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "5540C956-4A23-42CD-B626-9744ADDD25CA - 6512fe0e4387a7bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.LoginViewController.loginButtonTapped() -&gt; ()"
-                  moduleName = "FirebaseChatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/LoginViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "126"
-                  endingLineNumber = "126"
-                  offsetFromSymbolStart = "56">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "516B5D6B-B777-434F-9AB0-18D25CF958A8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -125,57 +77,10 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "266"
-            endingLineNumber = "266"
-            landmarkName = "presentPhotoActionSheet()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D1CB03F7-163D-4C9E-A344-C9D9AFA4BDEE - ee3c69e49b51bdc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.presentPhotoActionSheet() -&gt; ()"
-                  moduleName = "FirebaseChatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "237"
-                  endingLineNumber = "237"
-                  offsetFromSymbolStart = "196">
-               </Location>
-               <Location
-                  uuid = "D1CB03F7-163D-4C9E-A344-C9D9AFA4BDEE - ee3c69e49b51bfd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.presentPhotoActionSheet() -&gt; ()"
-                  moduleName = "FirebaseChatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "238"
-                  endingLineNumber = "238"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  uuid = "D1CB03F7-163D-4C9E-A344-C9D9AFA4BDEE - ee3c69e49b517be"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.presentPhotoActionSheet() -&gt; ()"
-                  moduleName = "FirebaseChatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "267"
-                  endingLineNumber = "267"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "RegisterViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -188,57 +93,10 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "293"
-            endingLineNumber = "293"
-            landmarkName = "presentPhotoPicker()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "40239395-29CE-4614-8155-636FCD983021 - 680b83259ec2cfcf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.presentPhotoPicker() -&gt; ()"
-                  moduleName = "FirebaseChatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "264"
-                  endingLineNumber = "264"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  uuid = "40239395-29CE-4614-8155-636FCD983021 - 680b83259ec2cfec"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.presentPhotoPicker() -&gt; ()"
-                  moduleName = "FirebaseChatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "265"
-                  endingLineNumber = "265"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "40239395-29CE-4614-8155-636FCD983021 - 680b83259ec2cba9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.presentPhotoPicker() -&gt; ()"
-                  moduleName = "FirebaseChatApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "294"
-                  endingLineNumber = "294"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "RegisterViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -251,55 +109,133 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "248"
-            endingLineNumber = "248"
-            landmarkName = "textFieldShouldReturn(_:)"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "RegisterViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86B42F2D-210E-41C0-B85A-1E4AFDD8064C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "validateAuth()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "269608E3-07B9-4848-AA54-1C488574855C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "validateAuth()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "553344E0-58F5-4A3D-A3A9-05253A47AD12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "LoginViewController"
+            landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "497EB06F-60C6-4A2A-8C0C-8581432B0A03 - 8612ac5dda3e1877"
+                  uuid = "553344E0-58F5-4A3D-A3A9-05253A47AD12 - 751bfd6f12b185e4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  symbolName = "FirebaseChatApp.LoginViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FirebaseChatApp.LoginViewController"
                   moduleName = "FirebaseChatApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/LoginViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "219"
-                  endingLineNumber = "219"
-                  offsetFromSymbolStart = "128">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
                </Location>
                <Location
-                  uuid = "497EB06F-60C6-4A2A-8C0C-8581432B0A03 - 8612ac5dda3e1856"
+                  uuid = "553344E0-58F5-4A3D-A3A9-05253A47AD12 - 210778ad23d865a0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  symbolName = "FirebaseChatApp.LoginViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FirebaseChatApp.LoginViewController"
                   moduleName = "FirebaseChatApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/LoginViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "220"
-                  endingLineNumber = "220"
-                  offsetFromSymbolStart = "44">
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "497EB06F-60C6-4A2A-8C0C-8581432B0A03 - 8612ac5dda3e1499"
+                  uuid = "553344E0-58F5-4A3D-A3A9-05253A47AD12 - 2ff7569dac99ac87"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "FirebaseChatApp.RegisterViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  symbolName = "FirebaseChatApp.LoginViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FirebaseChatApp.LoginViewController&gt;"
                   moduleName = "FirebaseChatApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/LoginViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "249"
-                  endingLineNumber = "249"
-                  offsetFromSymbolStart = "44">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "553344E0-58F5-4A3D-A3A9-05253A47AD12 - c4b4f0ee2d4e21e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirebaseChatApp.LoginViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FirebaseChatApp.LoginViewController&gt;"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "553344E0-58F5-4A3D-A3A9-05253A47AD12 - b58ce465f98d3a2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirebaseChatApp.LoginViewController.__deallocating_deinit"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "0">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -307,17 +243,174 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "092FEBF0-FB8C-46B6-BA8B-83CBDBAD56B7"
+            uuid = "60EF0A2D-02A5-491D-8F2E-29B0B8802CB2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ConversationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "60EF0A2D-02A5-491D-8F2E-29B0B8802CB2 - c8969928a8d23f17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirebaseChatApp.ConversationViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FirebaseChatApp.ConversationViewController"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "60EF0A2D-02A5-491D-8F2E-29B0B8802CB2 - a4905629d0d7dc5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirebaseChatApp.ConversationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FirebaseChatApp.ConversationViewController"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "60EF0A2D-02A5-491D-8F2E-29B0B8802CB2 - ff60969d34fded99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirebaseChatApp.ConversationViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FirebaseChatApp.ConversationViewController&gt;"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "60EF0A2D-02A5-491D-8F2E-29B0B8802CB2 - 241f8c090a613541"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirebaseChatApp.ConversationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FirebaseChatApp.ConversationViewController&gt;"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "60EF0A2D-02A5-491D-8F2E-29B0B8802CB2 - 728c512158f6e39e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirebaseChatApp.ConversationViewController.__deallocating_deinit"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B07FCD33-5491-44BF-B6DC-5781425FEE60"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseChatApp/ViewControllers/ConversationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0626BBA9-44BC-4349-A0F3-5A5ACB43C0C9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "220"
-            endingLineNumber = "220"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
             landmarkName = "registerButtonTapped()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAA3B087-8D80-4508-8931-4536A131D6A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "registerButtonTapped()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BAA3B087-8D80-4508-8931-4536A131D6A3 - cbc522d19a582f3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in FirebaseChatApp.RegisterViewController.registerButtonTapped() -&gt; ()"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "BAA3B087-8D80-4508-8931-4536A131D6A3 - cbc522d19a582f3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in FirebaseChatApp.RegisterViewController.registerButtonTapped() -&gt; ()"
+                  moduleName = "FirebaseChatApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohdwasifraza/Desktop/FirebaseChatApp/FirebaseChatApp/ViewControllers/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
