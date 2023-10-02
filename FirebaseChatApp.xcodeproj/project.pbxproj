@@ -13,6 +13,8 @@
 		5E9E6E172AC7EAC2001CC318 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E6E162AC7EAC2001CC318 /* ConversationViewController.swift */; };
 		5E9E6E1C2AC7EAC3001CC318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9E6E1B2AC7EAC3001CC318 /* Assets.xcassets */; };
 		5EA655232ACB0AF9002D22D8 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA655222ACB0AF9002D22D8 /* DatabaseManager.swift */; };
+		5EA655252ACB2C93002D22D8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA655242ACB2C93002D22D8 /* ProfileViewController.swift */; };
+		5EA655272ACB2C9D002D22D8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA655262ACB2C9D002D22D8 /* ChatViewController.swift */; };
 		5EA965D02AC8F75F00646B37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EA965CF2AC8F75F00646B37 /* GoogleService-Info.plist */; };
 		5EB1FE832AC9CBEB00CAC0A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1FE822AC9CBEB00CAC0A5 /* LoginViewController.swift */; };
 		5EB1FE852AC9CBFF00CAC0A5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1FE842AC9CBFF00CAC0A5 /* RegisterViewController.swift */; };
@@ -26,6 +28,8 @@
 		5E9E6E1B2AC7EAC3001CC318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E9E6E202AC7EAC3001CC318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EA655222ACB0AF9002D22D8 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		5EA655242ACB2C93002D22D8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5EA655262ACB2C9D002D22D8 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		5EA965CF2AC8F75F00646B37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5EB1FE822AC9CBEB00CAC0A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5EB1FE842AC9CBFF00CAC0A5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				5E9E6E162AC7EAC2001CC318 /* ConversationViewController.swift */,
 				5EB1FE822AC9CBEB00CAC0A5 /* LoginViewController.swift */,
 				5EB1FE842AC9CBFF00CAC0A5 /* RegisterViewController.swift */,
+				5EA655242ACB2C93002D22D8 /* ProfileViewController.swift */,
+				5EA655262ACB2C9D002D22D8 /* ChatViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -253,8 +259,10 @@
 			files = (
 				5EB1FE832AC9CBEB00CAC0A5 /* LoginViewController.swift in Sources */,
 				5EB1FE852AC9CBFF00CAC0A5 /* RegisterViewController.swift in Sources */,
+				5EA655272ACB2C9D002D22D8 /* ChatViewController.swift in Sources */,
 				5EA655232ACB0AF9002D22D8 /* DatabaseManager.swift in Sources */,
 				5E9E6E172AC7EAC2001CC318 /* ConversationViewController.swift in Sources */,
+				5EA655252ACB2C93002D22D8 /* ProfileViewController.swift in Sources */,
 				5E9E6E132AC7EAC2001CC318 /* AppDelegate.swift in Sources */,
 				5E9E6E152AC7EAC2001CC318 /* SceneDelegate.swift in Sources */,
 			);
