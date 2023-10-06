@@ -1,4 +1,12 @@
 PODS:
+  - FBAEMKit (16.1.1):
+    - FBSDKCoreKit_Basics (= 16.1.1)
+  - FBSDKCoreKit (16.1.1):
+    - FBAEMKit (= 16.1.1)
+    - FBSDKCoreKit_Basics (= 16.1.1)
+  - FBSDKCoreKit_Basics (16.1.1)
+  - FBSDKLoginKit (16.1.1):
+    - FBSDKCoreKit (= 16.1.1)
   - Firebase/Auth (10.15.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 10.15.0)
@@ -100,12 +108,17 @@ PODS:
   - RecaptchaInterop (100.0.0)
 
 DEPENDENCIES:
+  - FBSDKLoginKit
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
 
 SPEC REPOS:
   trunk:
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
     - Firebase
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
@@ -123,6 +136,10 @@ SPEC REPOS:
     - RecaptchaInterop
 
 SPEC CHECKSUMS:
+  FBAEMKit: 78e6d131977b5a34a9f35baba9d397e611cf4268
+  FBSDKCoreKit: 1b76d643eb5d4ce25909c58a412fe5ba400672e1
+  FBSDKCoreKit_Basics: 27185fcaf23c152fa3788eab1e35b75f70906e4b
+  FBSDKLoginKit: de12aec64eef9fe3332d7af1dffc10a3a1a1714a
   Firebase: 66043bd4579e5b73811f96829c694c7af8d67435
   FirebaseAnalytics: 47cef43728f81a839cf1306576bdd77ffa2eac7e
   FirebaseAppCheckInterop: a8c555b1c2db1d9445e6c3a08a848167ddb7eb51
@@ -139,6 +156,6 @@ SPEC CHECKSUMS:
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: c9b7da251b90371c5080dfedc15732bc27eeeb70
+PODFILE CHECKSUM: 1d9b9a733004ca72821ad8bb5609a8c4ff02e3ae
 
 COCOAPODS: 1.12.1

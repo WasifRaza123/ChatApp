@@ -23,26 +23,24 @@ class ConversationViewController: UITabBarController {
         vc2.navigationBar.topItem?.title = "Profile"
         vc2.tabBarItem.title = "Profile"
         
-        setViewControllers([vc1,vc2], animated: true)
+        setViewControllers([vc1,vc2], animated: false)
         
         tabBar.backgroundColor = .white
         tabBar.tintColor = .link
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         validateAuth()
-       
     }
     
     private func validateAuth() {
         if FirebaseAuth.Auth.auth().currentUser == nil {
             let vc = LoginViewController()
             let nav = UINavigationController(rootViewController: vc)
-            
             nav.modalPresentationStyle = .fullScreen
-            present(nav, animated: false)
+            present(nav, animated: true)
         }
     }
-    
-
-
 }
 

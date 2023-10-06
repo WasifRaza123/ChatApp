@@ -172,10 +172,6 @@ class RegisterViewController: UIViewController {
             registerButton.heightAnchor.constraint(equalToConstant: 52),
             registerButton.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor)
         ])
-        
-        
-        
-        
     }
     
     override func viewDidLayoutSubviews() {

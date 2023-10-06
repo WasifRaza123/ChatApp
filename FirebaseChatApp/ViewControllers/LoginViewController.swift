@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import FBSDKLoginKit
 
 class LoginViewController: UIViewController {
     
@@ -66,7 +67,14 @@ class LoginViewController: UIViewController {
         button.titleLabel?.font = .systemFont(ofSize: 20, weight: .bold)
         return button
     }()
-
+    
+    private let fbLoginButton: FBLoginButton =  {
+        let button = FBLoginButton()
+        button.permissions = ["public_profile", "email"]
+        return button
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -78,6 +86,7 @@ class LoginViewController: UIViewController {
     private func setUpView() {
         emailField.delegate = self
         passwordField.delegate = self
+        fbLoginButton.delegate = self
         
         loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         
@@ -86,18 +95,20 @@ class LoginViewController: UIViewController {
         scrollView.addSubview(emailField)
         scrollView.addSubview(passwordField)
         scrollView.addSubview(loginButton)
+        scrollView.addSubview(fbLoginButton)
         
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         imageView.translatesAutoresizingMaskIntoConstraints = false
         emailField.translatesAutoresizingMaskIntoConstraints = false
         passwordField.translatesAutoresizingMaskIntoConstraints = false
         loginButton.translatesAutoresizingMaskIntoConstraints = false
-
+        fbLoginButton.translatesAutoresizingMaskIntoConstraints = false
+        
+        fbLoginButton.removeConstraints(fbLoginButton.constraints)
         
         NSLayoutConstraint.activate([
             scrollView.widthAnchor.constraint(equalToConstant: view.frame.width),
             scrollView.heightAnchor.constraint(equalToConstant: view.frame.height),
-            
             
             imageView.widthAnchor.constraint(equalToConstant: 100),
             imageView.heightAnchor.constraint(equalToConstant: 100),
@@ -117,7 +128,12 @@ class LoginViewController: UIViewController {
             loginButton.topAnchor.constraint(equalTo: passwordField.bottomAnchor, constant: 10),
             loginButton.widthAnchor.constraint(equalToConstant: view.frame.width - 20),
             loginButton.heightAnchor.constraint(equalToConstant: 52),
-            loginButton.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor)
+            loginButton.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
+            
+            fbLoginButton.topAnchor.constraint(equalTo: loginButton.bottomAnchor, constant: 10),
+            fbLoginButton.widthAnchor.constraint(equalToConstant: view.frame.width - 20),
+            fbLoginButton.heightAnchor.constraint(equalToConstant: 52),
+            fbLoginButton.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor)
         ])
         
     }
@@ -157,7 +173,7 @@ class LoginViewController: UIViewController {
         vc.title = "Register"
         navigationController?.pushViewController(vc, animated: true)
     }
-
+    
 }
 
 extension LoginViewController: UITextFieldDelegate {
@@ -170,4 +186,75 @@ extension LoginViewController: UITextFieldDelegate {
         }
         return true
     }
+}
+
+extension LoginViewController: LoginButtonDelegate {
+    func loginButtonDidLogOut(_ loginButton: FBSDKLoginKit.FBLoginButton) {
+        // no operation
+    }
+    
+    func loginButton(_ loginButton: FBSDKLoginKit.FBLoginButton, didCompleteWith result: FBSDKLoginKit.LoginManagerLoginResult?, error: Error?) {
+        guard let token = result?.token?.tokenString else {
+            print("User failed to log in with facebook")
+            return
+        }
+        
+        let facebookRequest = FBSDKLoginKit.GraphRequest(graphPath: "me",
+                                                         parameters: ["fields": "email, name"],
+                                                         tokenString: token,
+                                                         version: nil,
+                                                         httpMethod: .get)
+        facebookRequest.start(completion: {_, result, error in
+            guard let result = result as? [String: Any], error == nil else {
+                print("Failed to make facebook graph request")
+                return
+            }
+            
+            
+            guard let userName = result["name"] as? String,
+                  let email = result["email"] as? String else {
+                print("Failed to get name and email from fb account")
+                return
+                
+            }
+            
+            let nameComponents = userName.components(separatedBy: " ")
+            guard nameComponents.count == 2 else {
+                return
+            }
+            
+            let firstName = nameComponents[0]
+            let lastName = nameComponents[1]
+            
+            DatabaseManager.shared.userExists(with: email, completion: {exists in
+                if !exists {
+                    DatabaseManager.shared.insertUser(with: ChatAppUser(firstName: firstName,
+                                                                        lastName: lastName,
+                                                                        emailAddress: email))
+                }
+            })
+            
+            let credential = FacebookAuthProvider.credential(withAccessToken: token)
+            FirebaseAuth.Auth.auth().signIn(with: credential, completion: { [weak self] authResult, error in
+                guard let strongSelf = self else {
+                    return
+                }
+                guard authResult != nil, error == nil else {
+                    if let error = error {
+                        print("Facebook credential login failed, MFA may be needed - \(error)")
+                    }
+                    return
+                }
+                
+                print("Successfully logged user in")
+                strongSelf.navigationController?.dismiss(animated: true,completion: nil)
+                
+                
+            })
+        })
+        
+        
+    }
+    
+    
 }
