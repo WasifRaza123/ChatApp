@@ -84,9 +84,6 @@ extension ProfileViewController: UITableViewDelegate, UITableViewDataSource {
         handler: nil))
         
         present(actionSheet, animated: true)
-        
-        
     }
-    
     
 }

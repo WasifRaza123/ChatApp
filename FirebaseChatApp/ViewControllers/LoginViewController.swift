@@ -73,12 +73,19 @@ class LoginViewController: UIViewController {
     private let fbLoginButton: FBLoginButton =  {
         let button = FBLoginButton()
         button.permissions = ["public_profile", "email"]
+        button.clipsToBounds = true
+        button.layer.cornerRadius = 12
+        button.removeConstraints(button.constraints)
         return button
     }()
     
     private let googleLoginButton: GIDSignInButton = {
         let button = GIDSignInButton()
         button.colorScheme = .dark
+//        button.removeConstraints(button.constraints)
+        button.style = .wide
+//        button.clipsToBounds = true
+//        button.layer.cornerRadius = 20
         return button
     }()
     
@@ -113,8 +120,6 @@ class LoginViewController: UIViewController {
         loginButton.translatesAutoresizingMaskIntoConstraints = false
         fbLoginButton.translatesAutoresizingMaskIntoConstraints = false
         googleLoginButton.translatesAutoresizingMaskIntoConstraints = false
-        
-        fbLoginButton.removeConstraints(fbLoginButton.constraints)
         
         NSLayoutConstraint.activate([
             scrollView.widthAnchor.constraint(equalToConstant: view.frame.width),

@@ -7,7 +7,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb703872468315645</string>
+				<string>com.googleusercontent.apps.1046632609655-5826bskgcg74hld1r37ts5sj5tdflf0s</string>
 			</array>
 		</dict>
 		<dict>
@@ -15,7 +15,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.1046632609655-5826bskgcg74hld1r37ts5sj5tdflf0s</string>
+				<string>fb703872468315645</string>
 			</array>
 		</dict>
 	</array>
@@ -25,6 +25,8 @@
 	<string>368aa029f1970582db26517c3afd983d</string>
 	<key>FacebookDisplayName</key>
 	<string>FirebaseChat</string>
+	<key>GIDClientID</key>
+	<string>1046632609655-5826bskgcg74hld1r37ts5sj5tdflf0s.apps.googleusercontent.com</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
@@ -47,16 +49,5 @@
 			</array>
 		</dict>
 	</dict>
-    <key>GIDClientID</key>
-    <string>1046632609655-5826bskgcg74hld1r37ts5sj5tdflf0s.apps.googleusercontent.com</string>
-    <key>CFBundleURLTypes</key>
-    <array>
-      <dict>
-        <key>CFBundleURLSchemes</key>
-        <array>
-          <string>com.googleusercontent.apps.1046632609655-5826bskgcg74hld1r37ts5sj5tdflf0s</string>
-        </array>
-      </dict>
-    </array>
 </dict>
 </plist>

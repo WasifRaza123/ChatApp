@@ -179,7 +179,6 @@ class RegisterViewController: UIViewController {
         
         // Set the corner radius here
         imageView.layer.cornerRadius = imageView.frame.width / 2
-        //        imageView.layer.masksToBounds = true
     }
     
     private func addGestureToImageView() {
