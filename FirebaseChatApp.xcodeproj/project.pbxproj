@@ -12,10 +12,10 @@
 		5E9E6E152AC7EAC2001CC318 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E6E142AC7EAC2001CC318 /* SceneDelegate.swift */; };
 		5E9E6E172AC7EAC2001CC318 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E6E162AC7EAC2001CC318 /* ConversationViewController.swift */; };
 		5E9E6E1C2AC7EAC3001CC318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9E6E1B2AC7EAC3001CC318 /* Assets.xcassets */; };
+		5EA3A6BF2ACFD509002347E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3A6BE2ACFD509002347E5 /* GoogleService-Info.plist */; };
 		5EA655232ACB0AF9002D22D8 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA655222ACB0AF9002D22D8 /* DatabaseManager.swift */; };
 		5EA655252ACB2C93002D22D8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA655242ACB2C93002D22D8 /* ProfileViewController.swift */; };
 		5EA655272ACB2C9D002D22D8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA655262ACB2C9D002D22D8 /* ChatViewController.swift */; };
-		5EA965D02AC8F75F00646B37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EA965CF2AC8F75F00646B37 /* GoogleService-Info.plist */; };
 		5EB1FE832AC9CBEB00CAC0A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1FE822AC9CBEB00CAC0A5 /* LoginViewController.swift */; };
 		5EB1FE852AC9CBFF00CAC0A5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1FE842AC9CBFF00CAC0A5 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
@@ -27,10 +27,10 @@
 		5E9E6E162AC7EAC2001CC318 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		5E9E6E1B2AC7EAC3001CC318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E9E6E202AC7EAC3001CC318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA3A6BE2ACFD509002347E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5EA655222ACB0AF9002D22D8 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		5EA655242ACB2C93002D22D8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5EA655262ACB2C9D002D22D8 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		5EA965CF2AC8F75F00646B37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5EAE309E2ACE9ECA00CB9977 /* FirebaseChatApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseChatApp.entitlements; sourceTree = "<group>"; };
 		5EB1FE822AC9CBEB00CAC0A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5EB1FE842AC9CBFF00CAC0A5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				5EAE309E2ACE9ECA00CB9977 /* FirebaseChatApp.entitlements */,
-				5EA965CF2AC8F75F00646B37 /* GoogleService-Info.plist */,
+				5EA3A6BE2ACFD509002347E5 /* GoogleService-Info.plist */,
 				5EB1FE812AC9CBA400CAC0A5 /* Views */,
 				5EB1FE802AC9CB9B00CAC0A5 /* ViewModels */,
 				5EB1FE7F2AC9CB9300CAC0A5 /* Models */,
@@ -205,8 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EA965D02AC8F75F00646B37 /* GoogleService-Info.plist in Resources */,
 				5E9E6E1C2AC7EAC3001CC318 /* Assets.xcassets in Resources */,
+				5EA3A6BF2ACFD509002347E5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +399,8 @@
 				DEVELOPMENT_TEAM = Z2XB4AV7RU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirebaseChatApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow to select a profile pic for the app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -429,6 +431,8 @@
 				DEVELOPMENT_TEAM = Z2XB4AV7RU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirebaseChatApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow to select a profile pic for the app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";

@@ -2,6 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb703872468315645</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1046632609655-5826bskgcg74hld1r37ts5sj5tdflf0s</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>703872468315645</string>
+	<key>FacebookClientToken</key>
+	<string>368aa029f1970582db26517c3afd983d</string>
+	<key>FacebookDisplayName</key>
+	<string>FirebaseChat</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -19,29 +47,16 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>Please allow access to take a profile picture</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Please allow to select a profile pic for the app</string>
+    <key>GIDClientID</key>
+    <string>1046632609655-5826bskgcg74hld1r37ts5sj5tdflf0s.apps.googleusercontent.com</string>
     <key>CFBundleURLTypes</key>
     <array>
       <dict>
-      <key>CFBundleURLSchemes</key>
-      <array>
-        <string>fb703872468315645</string>
-      </array>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.1046632609655-5826bskgcg74hld1r37ts5sj5tdflf0s</string>
+        </array>
       </dict>
-    </array>
-    <key>FacebookAppID</key>
-    <string>703872468315645</string>
-    <key>FacebookClientToken</key>
-    <string>368aa029f1970582db26517c3afd983d</string>
-    <key>FacebookDisplayName</key>
-    <string>FirebaseChat</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-      <string>fbapi</string>
-      <string>fb-messenger-share-api</string>
     </array>
 </dict>
 </plist>
