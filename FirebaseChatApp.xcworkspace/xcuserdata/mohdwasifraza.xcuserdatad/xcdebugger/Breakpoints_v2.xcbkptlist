@@ -14,8 +14,8 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "didTapChangeProfilePic()"
             landmarkType = "7">
             <Locations>
@@ -92,8 +92,8 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "273"
-            endingLineNumber = "273"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
             landmarkName = "presentPhotoActionSheet()"
             landmarkType = "7">
          </BreakpointContent>
@@ -108,8 +108,8 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "300"
-            endingLineNumber = "300"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
             landmarkName = "presentPhotoPicker()"
             landmarkType = "7">
          </BreakpointContent>
@@ -124,8 +124,8 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "255"
-            endingLineNumber = "255"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
             landmarkName = "textFieldShouldReturn(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -140,8 +140,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "LoginViewController"
             landmarkType = "3">
             <Locations>
@@ -278,8 +278,8 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "231"
-            endingLineNumber = "231"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
             landmarkName = "registerButtonTapped()"
             landmarkType = "7">
          </BreakpointContent>
@@ -294,8 +294,8 @@
             filePath = "FirebaseChatApp/ViewControllers/RegisterViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
             landmarkName = "registerButtonTapped()"
             landmarkType = "7">
             <Locations>
@@ -373,8 +373,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -389,8 +389,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "setUpView()"
             landmarkType = "7">
          </BreakpointContent>
@@ -558,8 +558,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "224"
-            endingLineNumber = "224"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
             landmarkName = "loginButtonTapped()"
             landmarkType = "7">
          </BreakpointContent>
@@ -574,8 +574,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "262"
-            endingLineNumber = "262"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
             landmarkName = "LoginViewController"
             landmarkType = "21">
          </BreakpointContent>
@@ -590,8 +590,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "scrollView"
             landmarkType = "24">
             <Locations>
@@ -668,8 +668,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "loginButton"
             landmarkType = "24">
             <Locations>
@@ -746,8 +746,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "fbLoginButton"
             landmarkType = "24">
             <Locations>
@@ -824,8 +824,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "248"
-            endingLineNumber = "248"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
             landmarkName = "alertUserLoginError()"
             landmarkType = "7">
          </BreakpointContent>
@@ -888,8 +888,8 @@
             filePath = "FirebaseChatApp/ViewControllers/ChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -904,8 +904,8 @@
             filePath = "FirebaseChatApp/ViewControllers/ConversationViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "ConversationViewController"
             landmarkType = "3">
             <Locations>
@@ -997,8 +997,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "279"
-            endingLineNumber = "279"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
             landmarkName = "loginButton(_:didCompleteWith:error:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1013,8 +1013,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "276"
-            endingLineNumber = "276"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
             landmarkName = "loginButtonDidLogOut(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1029,8 +1029,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "280"
-            endingLineNumber = "280"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
             landmarkName = "loginButton(_:didCompleteWith:error:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1045,8 +1045,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "274"
-            endingLineNumber = "274"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
             landmarkName = "LoginViewController"
             landmarkType = "21">
          </BreakpointContent>
@@ -1061,8 +1061,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "setUpView()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1077,8 +1077,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "281"
-            endingLineNumber = "281"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
             landmarkName = "loginButton(_:didCompleteWith:error:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1093,8 +1093,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "293"
-            endingLineNumber = "293"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
             landmarkName = "loginButton(_:didCompleteWith:error:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1109,8 +1109,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
             landmarkName = "gButtonTapped()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1125,8 +1125,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
             landmarkName = "gButtonTapped()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1135,6 +1135,22 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B7B9D8C1-857B-47A9-A06A-7FFDB81CC6F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "gButtonTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19B7420D-C165-418C-B02D-6EF9F5DC3C0E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1150,22 +1166,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "19B7420D-C165-418C-B02D-6EF9F5DC3C0E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
-            landmarkName = "gButtonTapped()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0A100320-C3C0-46B1-92DA-ED8B356DB514"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -1173,8 +1173,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
             landmarkName = "gButtonTapped()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1205,8 +1205,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1221,8 +1221,8 @@
             filePath = "FirebaseChatApp/ViewControllers/LoginViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
